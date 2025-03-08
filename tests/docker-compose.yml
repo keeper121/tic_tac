@@ -1,0 +1,3 @@
+services:
+  tic-tac:
+    image: ${CONTAINER_IMAGE}-dev

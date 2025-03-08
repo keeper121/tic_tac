@@ -1,0 +1,4 @@
+attrs
+pytest
+pytest-cov
+flake8

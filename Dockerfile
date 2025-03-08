@@ -1,5 +1,10 @@
-FROM apron_training
+FROM python:3.11-slim
 
-WORKDIR /usr/src/app
+WORKDIR /app
+
+ENV PYTHONPATH=/app
+
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
